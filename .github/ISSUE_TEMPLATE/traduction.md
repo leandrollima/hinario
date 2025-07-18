@@ -11,16 +11,16 @@ assignees: ''
 - [ ] Traduction
 - [ ] Révision
 
-## 🎵 Titre original du chant
+## 🎵 Titre original de l'hymne
 Ex: The Church's One Foundation
 
 ## 🎯 Objectif
 Décrivez brièvement la tâche à accomplir.  
-Ex: Traduire le chant 5 en respectant la métrique originale.
+Ex: Traduire l'hymne X en respectant le mètre original.
 
 ## 📎 Ressources
 - Lien vers la partition ou PDF: [ex: lien ici]
-- Chant original en anglais: [ex: lien ou texte ici]
+- Hymne original en anglais: [ex: lien ou texte ici]
 - Notes particulières (si besoin):  
   - Exemple: vérifier la rime du 3e couplet
   - Exemple: le refrain semble avoir 2 versions
