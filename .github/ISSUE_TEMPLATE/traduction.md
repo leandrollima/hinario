@@ -1,7 +1,7 @@
 ---
 name: Traduction ou Révision
-about: Nouvelle tâche de traduction ou de révision d’un chant
-title: "[Traduction] Chant X – Nom du chant"
+about: Nouvelle traduction ou révision d'hymnes
+title: "[Traduction] Hymne X"
 labels: traduction
 assignees: ''
 
@@ -16,7 +16,7 @@ Ex: The Church's One Foundation
 
 ## 🎯 Objectif
 Décrivez brièvement la tâche à accomplir.  
-Ex: Traduire le chant 5 en respectant la métrique originale (6.6.8.6 avec refrain).
+Ex: Traduire le chant 5 en respectant la métrique originale.
 
 ## 📎 Ressources
 - Lien vers la partition ou PDF: [ex: lien ici]
