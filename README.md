@@ -8,7 +8,7 @@ Nous utilisons ChatGPT¹ pour créer des traductions de cantiques. Ces cantiques
 * [Musiciens](https://hymns.fccongregations.org/musicians)
 
 
-¹ Consultez le fichier src/chanteurs/traduction.md pour plus d'informations.
+¹ Consultez le fichier [traduction.md](src/chanteurs/traduction.md) pour plus d'informations.
 
 
 # TODO

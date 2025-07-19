@@ -30,7 +30,7 @@ Je partage la méthode que j'utilise pour composer la traduction via ChatGPT:
     verset 4: sm, sm, sm, sm, sm, m, sm, sm, sm, sm, sm, m.;
     verset 5: sm, sm, sm, sm, sm, c, c, sm, sm_sb.
     ```
-    **Pour en savoir plus sur ce que signifient sm, c, m, ..., consultez le document : /chanteurs/abrev_symb_musicaux.md*
+    **Pour en savoir plus sur ce que signifient sm, c, m, ..., consultez le document : [abrev_symb_musicaux.md](abrev_symb_musicaux.md)*
 
 3. Et un message qui demande que la traduction soit faite en français (Canada), que la traduction s'adapte à la mélodie pour que le chant soit fluide.
 
