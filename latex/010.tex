@@ -1,0 +1,58 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h010}{}
+\section*{010. Christ est la Parole de Dieu}
+\addcontentsline{toc}{section}{010. Christ est la Parole de Dieu}
+\label{h:010}
+\index{Christ est la Parole de Dieu}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Jn 1.1-4 ; 6.63 ; 14.6 - 2 Tm 3.16-17 - Rm 10.17}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Redis-moi ces mots précieux, ceux de la Sainte Bible ;\\
+Qu'en moi brillent encor leurs feux, paroles de mon Dieu.\\
+Mots de vie et lumière, foi, devoir — leur lumière.
+
+\medskip
+\indent\textbf{Christ est la Parole envoyée ; en Lui seul, la vie est donnée.}\\
+\indent\textbf{Christ est l'Envoi, don de l'amour ; Son amour sur est si grand.}
+
+\medskip
+\noindent\textbf{2.} Christ, béni Sauveur, nous accorde la vie qui dure en gloire.\\
+Sa Parole en nous est semée, vie qui ne meurt jamais.\\
+Don de grâce et lumière, vers le ciel, Il nous mène.
+
+\medskip
+\noindent\textbf{3.} Joyeux, suivons l'appel divin, Il nous guide vers le ciel ;\\
+Il \ligature{pardonne}{et} donne la paix, par grâce, par la foi.\\
+Jésus, Sauveur, don parfait, nous rend purs à jamais.
+
+\end{document}
