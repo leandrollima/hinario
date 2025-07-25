@@ -1,0 +1,69 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h011}{}
+\section*{011. Jésus béni}
+\addcontentsline{toc}{section}{011. Jésus béni}
+\label{h:011}
+\index{Jésus béni}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Ps 23:1-4 - Jn 10:11-15 - Es 40:11}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Sauveur, tel un berger, tu nous guides,\\
+car nous avons grand besoin.\\
+Dans ton pré, tu donnes pain et repos,\\
+chaque jour, prends soin de nous.\\
+Jésus béni, Jésus béni,\\
+tu nous cherchas de très loin;\\
+Jésus béni, Jésus béni,\\
+Tu nous rachetas pour toi.
+
+\medskip
+\noindent\textbf{2.} Dans le droit chemin, tu veux nous conduire,\\
+sois gardien de notre voie.\\
+Garde ton troupeau, loin du péché noir,\\
+cherche-nous si l'on s'égare.\\
+Jésus béni, Jésus béni,\\
+entends, ô entends nos voix;\\
+Jésus béni, Jésus béni,\\
+tu nous rachetas pour toi.
+
+\medskip
+\noindent\textbf{3.} Tu es plein d'amour, tu nous fais grâce,\\
+Tu reçois des cœurs brisés.\\
+Tu soulages le fardeau du péché,\\
+par ta grâce, nous vivons.\\
+Jésus béni, Jésus béni,\\
+qu'enfants, on revienne à toi;\\
+Jésus béni, Jésus béni,\\
+nous croyons en toi, Jésus.
+
+\end{document}

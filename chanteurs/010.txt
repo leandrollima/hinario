@@ -3,14 +3,14 @@ Jn 1.1-4 ; 6.63 ; 14.6 – 2 Tm 3.16-17 – Rm 10.17
 
 1. Redis-moi ces mots précieux,
 ceux de la Sainte Bible ;
-Qu’en moi brillent encor leurs feux,
+Qu'en moi brillent encor leurs feux,
 paroles de mon Dieu.
 Mots de vie et lumière,
 foi, devoir — leur lumière.
 
     Christ est la Parole envoyée ;
     en Lui seul, la vie est donnée.
-    Christ est l’Envoi, don de l’amour ;
+    Christ est l'Envoi, don de l'amour ;
     Son amour sur est si grand.
 
 2. Christ, béni Sauveur, nous accorde
@@ -20,7 +20,7 @@ vie qui ne meurt jamais.
 Don de grâce et lumière,
 vers le ciel, Il nous mène.
 
-3. Joyeux, suivons l’appel divin,
+3. Joyeux, suivons l'appel divin,
 Il nous guide vers le ciel ;
 Il pardonne_et donne la paix,
 par grâce, par la foi.
@@ -36,14 +36,14 @@ Séparation basée sur les notes
 
 1. Re.dis-moi ces mots pré.ci.eux,
 ceux de la Sain.te Bi.ble ;
-Qu’en moi bril.lent en.cor leurs feux,
+Qu'en moi bril.lent en.cor leurs feux,
 pa.ro.les de mon Dieu.
 Mots de vie et lu.miè.re,
 foi, de.voir — leur lu.miè.re.
 
     Christ est la Pa.ro.le en.voy.ée ;
     en Lui seul, la vie est don.née.
-    Christ est l’En.voi, don de l’a.mour ;
+    Christ est l'En.voi, don de l'a.mour ;
     Son a.mour est si grand.
 
 2. Christ, bé.ni Sau.veur, nous a.ccorde
@@ -53,7 +53,7 @@ vie qui ne meurt ja.mais.
 Don de grâ.ce et lu.miè.re,
 vers le ci.el, Il nous mè.ne.
 
-3. Joy.eux, sui.vons l’ap.pel di.vin,
+3. Joy.eux, sui.vons l'ap.pel di.vin,
 Il nous gui.de vers le ciel ;
 Il par.don.ne_et do.nne la paix,
 par grâ.ce, par la foi.
