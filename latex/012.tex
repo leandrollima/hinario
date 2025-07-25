@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h012}{}
+\section*{012. Fais confiance au nom de Jésus}
+\addcontentsline{toc}{section}{012. Fais confiance au nom de Jésus}
+\label{h:012}
+\index{Fais confiance au nom de Jésus}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Ps 20.7 - Pr 18.10 - Ph 2.9-11 - Jn 14.13-14 - Ac 4.12 - Mt 28.20}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Si tu crois au nom de Jésus,\\
+Il te donne \ligature{paix}{et} bonté.\\
+Il te guide, il marche devant ;\\
+Tu n'as pas peur, tu peux marcher
+
+\medskip
+\indent\textbf{Nom si doux, nom sacré !}\\
+\indent\textbf{Que le nom Jésus soit loué !}\\
+\indent\textbf{Par lui vient le salut ;}\\
+\indent\textbf{Et c'est lui qui nous conduit.}
+
+\medskip
+\noindent\textbf{2.} Élève toujours son grand nom ;\\
+Il protège de tout danger.\\
+Quand la tentation t'environne,\\
+Prie ce nom, Dieu te répond.
+
+\medskip
+\noindent\textbf{3.} Béni soit le nom de Jésus !\\
+Il met l'espérance en nous.\\
+Il nous reçoit dans sa maison\\
+Quand la course prend sa fin.
+
+\end{document}
