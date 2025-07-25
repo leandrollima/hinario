@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h006}{}
+\section*{006. Jésus a tout payé}
+\addcontentsline{toc}{section}{006. Jésus a tout payé}
+\label{h:006}
+\index{Jésus a tout payé}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Mt 26:41 - Es 1:18 - Ez 36:26 - Rm 5:8 - Ep 2:8–9}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Moi, j'entends mon Sauveur dire :\\
+« Ta force est sans appui.\\
+Veille et prie, ô cœur fragile,\\
+Car en moi, tu tiens debout. »
+
+\medskip
+\indent\textbf{Jésus a payé,}\\
+\indent\textbf{Tout à Lui je dois.}\\
+\indent\textbf{Mon péché marqua mon cœur,}\\
+\indent\textbf{Il les blanchit pour moi.}
+
+\medskip
+\noindent\textbf{2.} Seigneur, je vois clairement,\\
+Car ta \ligature{force}{agit} bien.\\
+Oui, tu guéris le lépreux,\\
+Et fais fondre les cœurs durs.
+
+\medskip
+\noindent\textbf{3.} En moi, rien n'est bon du tout,\\
+\ligature{C'est}{en} Lui que je tiens.\\
+Jésus est mort pour mon cœur,\\
+Sa main me \ligature{garde}{à} jamais.
+
+\end{document}

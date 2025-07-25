@@ -1,0 +1,67 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h002}{}
+\section*{002. Toujours plus près}
+\addcontentsline{toc}{section}{002. Toujours plus près}
+\label{h:002}
+\index{Toujours plus près}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Ps 73:28 - Jc 4:8}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Plus près, toujours plus près de mon cœur,\\
+Viens, doux Sauveur, ô toi, mon Seigneur.\\
+Que tout mon cœur te soit consacré.\\
+Sois mon \ligature{refuge}{et} mon sûr bouclier.\\
+Je veux m'appuyer sur Toi, Éternel.
+
+\medskip
+\noindent\textbf{2.} Plus près de Toi, Seigneur, je Te rends.\\
+Je fuis le péché et ses faux plaisirs.\\
+Que Ta volonté soit \ligature{faite}{et} moi.\\
+Fais de moi un vase pur pour Toi.\\
+Que Ton Esprit me \ligature{remplisse,}{Éternel}.
+
+\medskip
+\noindent\textbf{3.} Plus près de Toi, Seigneur bien-aimé,\\
+Ton Saint-Esprit m'inonde de joie,\\
+Il guide mes pas dans Ta clarté,\\
+Il change mon cœur, je Te suis en tout.\\
+Donne-moi \ligature{force}{et} \ligature{courage,}{Éternel}.
+
+\medskip
+\noindent\textbf{4.} Plus près de Toi, tant que je vivrai.\\
+Jusqu'à ta gloire où cessent les pleurs.\\
+Je T'appartiens pour l'éternité.\\
+Je veux marcher tout près de mon Sauveur\\
+Toujours plus près de Toi, Éternel. 
+
+\end{document}

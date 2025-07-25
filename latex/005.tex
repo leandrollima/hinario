@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h005}{}
+\section*{005. Jésus t'appelle}
+\addcontentsline{toc}{section}{005. Jésus t'appelle}
+\label{h:005}
+\index{Jésus t'appelle}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Mt 11:28-30 - Lc 15:4-7 - Ap 3:20}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Tendrement, plein d'amour, Jésus t'appelle,\\
+Il t'appelle, viens à Lui.\\
+Il est fidèle, Il veille en.cor' sur toi,\\
+Tous tes besoins, Il les voit.
+
+\medskip
+\indent\textbf{Viens à Lui, Il est là}\\
+\indent\textbf{Il promet la paix et le repos.}\\
+\indent\textbf{Ouvre ton cœur, car Jésus \ligature{t'appelle}{encore}.}\\
+\indent\textbf{En Lui, tu seras béni.}
+
+\medskip
+\noindent\textbf{2.} Oui, recevons le don du Seigneur Jésus,\\
+Il l'offre à toi, à moi.\\
+Refuse pas son amour et sa grâce.\\
+Jésus veut tous les sauver.
+
+\medskip
+\noindent\textbf{3.} Quel merveilleux amour Il nous a promis,\\
+Offerte pour toi et moi.\\
+Bien que l'on ait péché, Il donne pardon;\\
+Son sang peut nous purifier.
+
+\end{document}

@@ -1,0 +1,66 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h008}{}
+\section*{008. Dieu, forteresse et sûr refuge}
+\addcontentsline{toc}{section}{008. Dieu, forteresse et sûr refuge}
+\label{h:008}
+\index{Dieu, forteresse et sûr refuge}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Ps 46:1-3 - Ep 6:10-18 - Rm 8:31-39 - Ps 91}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Dieu, notre appui, refuge très fort,\\
+Il est un rempart fort, sûr et grand.\\
+Il nous défend par l'amour d'un grand Père,\\
+Il est vainqueur du mal à jamais.\\
+Nous souffrons affliction, livrés à l'oppression,\\
+Mais Dieu garde les Siens, Son plan connaît la fin.\\
+En Lui forts, nous serons tous vainqueurs.
+
+\medskip
+\noindent\textbf{2.} Si l'on comptait sur nos propres forces,\\
+Nous tomberions dans la défaite.\\
+Sans le soutien d'un Sauveur fidèle,\\
+Le Fils de Dieu nous fut envoyé.\\
+C'est Jésus-Christ, le Saint, Il demeure à jamais.\\
+Nous luttons à Son nom, Il combat, Il est Roi.\\
+C'est en Lui que vient la victoire.
+
+\medskip
+\noindent\textbf{3.} Ce temps est plein d'épreuves et de pièges,\\
+Des vents méchants veulent nous abattre.\\
+Dieu nous soutient, Sa main nous fait tenir\\
+et sa vérité vaincra par nous.\\
+Le mal avance encore, ne nous fait pas trembler.\\
+Il menace, sans pouvoir, car sa fin est certaine.\\
+Par la Parole, il tombera.
+
+\end{document}

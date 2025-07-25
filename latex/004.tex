@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h004}{}
+\section*{004. Crois et obéis}
+\addcontentsline{toc}{section}{004. Crois et obéis}
+\label{h:004}
+\index{Crois et obéis}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Pr 3:5-6 - Jn 14:15 - Ps 37:3-5 - 1Jn 2:3-6 - Dt 28:1-2}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Si l'on croit au Seigneur et qu'on suit Sa Parole,\\
+Dans Sa \ligature{grâce,}{Il} nous guide toujours.\\
+Si l'on vit dans Sa paix, la nuit n'est plus en moi;\\
+La joie \ligature{est}{là} si l'on croit \ligature{et}{obéit}.
+
+\medskip
+\indent\textbf{Crois et obéis, c'est le seul vrai chemin,}\\
+\indent\textbf{Vie \ligature{nouvelle}{est} en Jésus :}\\
+\indent\textbf{Il faut croire \ligature{et}{obéir}.}\\
+\indent\textbf{En Lui, tu seras béni.}
+
+\medskip
+\noindent\textbf{2.} Dans \ligature{l'épreuve}{et} la peur, on \ligature{repose}{en} Sa paix;\\
+Toujours présent, Il guide nos pas.\\
+Il connaît nos fardeaux, Son amour nous soutient;\\
+Sois sans peur, \ligature{crois}{en} Jésus, obéis.
+
+\medskip
+\noindent\textbf{3.} Quand la \ligature{course}{est} finie, et la paix retrouvée,\\
+Avec les saints, debout devant Dieu.\\
+Joie éternelle et clarté, contemplant Sa beauté,\\
+Pour toujours, nous vivrons dans la foi.
+
+\end{document}

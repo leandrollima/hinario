@@ -42,10 +42,3 @@ Dieu nous sou.tient, Sa main nous fait te.nir et sa vé.ri.té vaincra par nous.
 Le mal a.vance en.core, ne nous fait pas trem.bler.
 Il me.nace, sans pou.voir, car sa fin est cer.taine.
 Par la Pa.ro.le, il tom.be.ra-.
-
-
-verset 1: sm, sm, sm, c, c, sm, c, c, sm, sm, sm, sm, sm, sm, sm, c, c, sm, sm;
-verset 2: sm, sm, sm, c, c, sm, c, c, sm, sm, sm, sm, sm, sm, sm, c, c, sm, sm_m;
-verset 3: sm, sm, sm, sm, sm, m., sm, sm, sm, sm, sm, m.;
-verset 4: sm, sm, sm, sm, sm, m, sm, sm, sm, sm, sm, m.;
-verset 5: sm, sm, sm, sm, sm, c, c, sm, sm_sb.

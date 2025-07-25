@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h007}{}
+\section*{007. La miséricorde bénie de Dieu}
+\addcontentsline{toc}{section}{007. La miséricorde bénie de Dieu}
+\label{h:007}
+\index{La miséricorde bénie de Dieu}
+
+\vspace{-0.8em}
+\noindent{\small\textit{He 13:5 - Ps 23:4 - Jn 8:12 - Ps 36:9 - Ps 16:11 - Ph 4:4}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Marchant dans bonté divine sans repos\\
+Par monts, par vallées, j'avance sûr\\
+Jésus dit : “Je resterai près de toi”\\
+Promesse sacrée ne peut faillir
+
+\medskip
+\indent\textbf{La bonté bénie fidèle et tendre}\\
+\indent\textbf{Inonde mon cœur de ta grandeur}\\
+\indent\textbf{En mon Sauveur, je suis dans la joie vraie}\\
+\indent\textbf{Chantant ses louanges, joie pour moi}
+
+\medskip
+\noindent\textbf{2.} Le noir est au-tour de moi et au ciel\\
+Toujours mon Sauveur brille à mes yeux\\
+Il est lumière, en Lui pas d'ombre\\
+Toujours je marche tout près de Lui
+
+\medskip
+\noindent\textbf{3.} Dans ce beau soleil, je reste joyeux\\
+Je poursuis ma route vers le ciel\\
+Louant Dieu sans trêve, \ligature{j'avancen}{en} chantant\\
+Je vais en lumière, dans son amour
+
+\end{document}

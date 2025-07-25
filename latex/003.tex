@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h003}{}
+\section*{003. Fondement de l'Église}
+\addcontentsline{toc}{section}{003. Fondement de l'Église}
+\label{h:003}
+\index{Fondement de l'Église}
+
+\vspace{-0.8em}
+\noindent{\small\textit{1Co 3:11 - Ep 2:19-20 - Ep 5:25-27 - 1P 2:46 - Ap 19:7}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} La base de l'Église, c'est Jésus, son Seigneur.\\
+Par Sa Parole pure, Il l'a lavée d'erreur.\\
+Du ciel, Il vient vers elle, la prend pour Son épouse.\\
+Par Son sang Il l'achète, et donne pour elle Sa vie.
+
+\medskip
+\noindent\textbf{2.} Élus de toutes langues, un seul \ligature{peuple}{en} chemin,\\
+Un seul Seigneur, une foi vraie, qui donne vie nouvelle.\\
+Un seul saint Nom elle loue, \ligature{partage}{un} même pain,\\
+Et dans l'espoir s'avance, comblée de tous Ses biens.
+
+\medskip
+\noindent\textbf{3.} Au cœur de nos épreuves, souffrances et combats,\\
+Elle attend la promesse d'une paix sans fin, sans peur.\\
+Jusqu'au jour glorieux où ses yeux verront la gloire,\\
+\ligature{L'Église}{en} Christ, par la paix, entre dans le repos.
+
+\medskip
+\noindent\textbf{4.} Même ici sur la terre, l'Église vit en Dieu,\\
+Elle a part à la grâce avec ceux qu'Il soutient.\\
+Ô saints remplis de joie, Seigneur, fais-nous pareils,\\
+Comme eux, doux et fidèles, vivons pour Toi, Seigneur.
+
+\end{document}

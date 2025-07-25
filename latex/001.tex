@@ -1,0 +1,82 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+\newcommand{\ligaturethree}[3]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \setbox2=\hbox{#3}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2~#3};
+    \coordinate (start1) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end1) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start1) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end1);
+    
+    \coordinate (start2) at ([xshift=\wd0+\wd1+0.2em,yshift=0.5ex]base.south west);
+    \coordinate (end2) at ([xshift=\wd0+\wd1+0.8em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start2) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end2);
+  }%
+  \endgroup
+}
+
+
+\begin{document}
+
+\hypertarget{h001}{}
+\section*{001. Sur la croix}
+\addcontentsline{toc}{section}{001. Sur la croix}
+\label{h:001}
+\index{Fondement de l'Église}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Rm 5:8 - Ep 2:8-9 - 2Co 5:21 - Ep 5:25 - Jn 14:2-3}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} 1. La mort sur la croix il n'existe pas egal,\\
+Là, Dieu révéla son pardon.\\
+Parfait et sans faute, Il fut crucifié,\\
+Pour sauver l'homme loin de la foi.
+
+\medskip
+\indent\textbf{Quel amour, grand amour,}\\
+\indent\textbf{\ligaturethree{Qu'on}{trouve}{en} Jésus seul, à jamais!}
+
+\medskip
+\noindent\textbf{2.} L'amour sur la croix, seul Christ a pu l'accomplir,\\
+Personne d'autre ne pouvait pas.\\
+En Lui, la justice de Dieu fut donnée,\\
+Et la paix avec Dieu retrouvée.
+
+\medskip
+\noindent\textbf{3.} Le don sur la croix a payé tout nos péchés,\\
+Son oeuvre nous a délivrés.\\
+Par grâce eternel, Il nous a rachetés,\\
+Et au ciel, Il va nous amener.
+
+\end{document}
