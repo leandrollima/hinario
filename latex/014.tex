@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h014}{}
+\section*{014. Père céleste, Dieu d'amour}
+\addcontentsline{toc}{section}{014. Père céleste, Dieu d'amour}
+\label{h:014}
+\index{Père céleste, Dieu d'amour}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Psa 61:2-4; 31:5 - Isa 64:6 - Eph 2:8-9 - Phi 3:9}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Père céleste, Dieu d'amour,\\
+Règne en moi dès chaque jour.\\
+Que Ta grâce en moi régne,\\
+Que Ta paix remplisse mon cœur.\\
+Garde-moi du dur péché,\\
+Et du mal fais-moi sauvé.
+
+\medskip
+\noindent\textbf{2.} Père, Tu donnes ton amour,\\
+Je Te donne mes séjours.\\
+Mes efforts, mon dur labeur,\\
+Rien ne peut combler Ta loi\\
+Nul ne peut pour moi suffire,\\
+Toi seul peux me secourir
+
+\medskip
+\noindent\textbf{3.} Je ne viens qu'avec la foi,\\
+Mais je m'attache à Ton Nom.\\
+J'ai besoin de Ta faveur,\\
+Ton amour, \ligature{force}{éternelle}.\\
+Caché dans Ton bras béni,\\
+Je Te cherche, montre-Toi.
+
+\end{document}
