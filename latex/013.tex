@@ -1,0 +1,63 @@
+\pdfminorversion=4
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage[a5paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{helvet}
+\usepackage{tikz}
+\usepackage{calc}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\ligature}[2]{%
+  \begingroup
+  \leavevmode
+  \setbox0=\hbox{#1}%
+  \setbox1=\hbox{#2}%
+  \tikz[baseline=(base.base)]{
+    \node[inner sep=0pt] (base) {\strut #1~#2};
+    \coordinate (start) at ([xshift=\wd0-0.1em,yshift=0.5ex]base.south west);
+    \coordinate (end) at ([xshift=\wd0+0.5em,yshift=0.5ex]base.south west);
+    \draw[line width=0.25pt]
+      (start) .. controls +(0.25em,-0.15em) and +(-0.25em,-0.15em) .. (end);
+  }%
+  \endgroup
+}
+
+\begin{document}
+
+\hypertarget{h013}{}
+\section*{013. Grande est Ta fidélité}
+\addcontentsline{toc}{section}{013. Grande est Ta fidélité}
+\label{h:012}
+\index{Grande est Ta fidélité}
+
+\vspace{-0.8em}
+\noindent{\small\textit{Lam 3:22-23 - Jam 1:17 - Psa 36:5; 89:1}}
+
+\vspace{0.8em}
+\medskip
+\noindent\textbf{1.} Grand est Ta fidélité, ô mon Père\\
+N'y a d'ombre qui tourne près de Toi\\
+Tu ne changes pas, ton amour ne faiblit\\
+Ce que Tu fus, Tu restes à jamais.
+
+\medskip
+\indent\textbf{Grande fidélité ! Grande fidélité !}\\
+\indent\textbf{Chaque matin, je vois Ta main, Seigneur}\\
+\indent\textbf{PTout ce qu'il me fallait, Ta main a donné}\\
+\indent\textbf{Grande fidélité, Seigneur pour moi}
+
+\medskip
+\noindent\textbf{2.} Les saisons changent : hiver, été, printemps\\
+Le sol produit, Dieu donne la moisson\\
+Soleil et lune brillent, les cieux chantent\\
+Tout révèle fidélité sans fin.
+
+\medskip
+\noindent\textbf{3.} Pardon du péché, paix qui dure toujours\\
+Ta présence aimante me conduit\\
+Force pour aujourd'hui, espoir pour demain\\
+Tous ces bienfaits, Seigneur, Tu nous donnes.
+
+\end{document}
